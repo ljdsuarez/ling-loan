@@ -1,0 +1,10 @@
+.addToList {
+    display: flex;
+    flex-flow: column;
+    margin-top: 100px;
+}
+
+.addToListButton {
+    margin-left: 70px;
+    margin-top: 50px;
+}

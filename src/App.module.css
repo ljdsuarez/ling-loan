@@ -1,0 +1,7 @@
+.app {
+    display: grid;
+    grid-template-rows: 60px 30px 30px auto 30px 30px;
+    grid-template-columns: 25% auto 25%;
+    width: 100vw;
+    height: 100vh;
+}

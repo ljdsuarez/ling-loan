@@ -1,0 +1,31 @@
+.login {
+  display: flex;
+  border: 1px black;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.loginBox {
+  height: 400px;
+  width: 640px;
+  background-color: #ffb4a2;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin-bottom: 200px;
+}
+
+.loginHeader {
+  position: absolute;
+  height: 80px;
+  width: 640px;
+  background-color: #e5989b;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px 20px 0px 0px;
+  text-align: center;
+  color: white;
+}

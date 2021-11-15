@@ -1,0 +1,15 @@
+.amountCard {
+  display: flex;
+  background-color: #6d6875;
+  border-radius: 10px;
+  width: 200px;
+  height: 42px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 900;
+  margin-right: 10px;
+  padding-right: 15px;
+}

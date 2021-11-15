@@ -1,0 +1,62 @@
+.navBar {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #8B8B8B;
+    height: 60px;
+    font-size: 25px;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.navBarWhiteSpace {
+    flex: 1;
+}
+
+.navBarTitle {
+    order: 0;
+    position: relative;
+    font-weight: bold;
+    color: white;
+    width: auto;
+    margin-left: 20px;
+    align-self: center;
+
+}
+
+.navBarLinks {
+    color: white;
+    margin-right: 50px;
+    align-self: center;
+}
+
+.navBarSearch {
+    margin-right: 20px;
+    align-self: center;
+}
+
+.navBarSearch input{
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border: 1px #8B8B8B;
+    border-radius: 25px;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+
+.navBarSearch input:focus{
+    outline: none;
+
+}
+
+.navBarSearch input:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.logoutButton {
+     margin-top: 10px;
+}

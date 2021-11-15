@@ -1,0 +1,70 @@
+.userInput {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin: 10px 0 0 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+
+}
+
+.userInput:first-child {
+    margin-top: 60px;
+}
+
+input {
+font-size: 18px;
+font-family: 'Montserrat';
+display: block;
+width: 363px;
+height: 50px;
+background: #FFFFFF;
+border: 1px solid #959595;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+margin-top: 20px;
+padding: 10px 10px 0 23px;
+transition: all 0.2s ease-in-out;
+}
+
+
+input:focus {
+    outline: none;
+}
+
+label {
+    color: black;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    position: absolute;
+    pointer-events: none;
+    justify-self: center;
+    align-self: center;
+    top: 35px;
+    left: 160px;
+    transition: 0.1s ease all;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    top: 20px;
+    font-size: 12px;
+    color: rgb(148, 148, 148);
+    font-weight: 700;
+}
+
+.error {
+  display: flex;
+  color: red;
+  position: absolute;
+  width: 640px;
+ top: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginButton {
+    margin-top: 50px;
+}
